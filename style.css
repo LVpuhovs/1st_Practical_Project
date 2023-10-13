@@ -64,6 +64,27 @@ nav ul {
       margin-right: auto;
       max-width: 100%;
      }
+     article figure {
+      display: block;
+      width: 100%;
+      margin: 0;
+      position: relative;
+     }
+     article figure img {
+      display: block;
+      width: 100%;
+     }
+     article figure figcaption {
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      display: block;
+      width: 100%;
+      padding: 0.5rem 1rem;
+      background-color: rgba(0, 0, 0, 0.5);
+      color: var(--white);
+     font-family: var(--font-heading);
+     }
    html {
     font-family: var(--font-default);
     font-size: 14px;
