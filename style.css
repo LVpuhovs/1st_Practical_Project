@@ -133,6 +133,37 @@ nav ul {
    body {
     margin: 0;
    }
+   .container {
+      padding: 0 0.5rem;
+      }
+      .container {
+         display: block;
+         width: 992px;
+         margin-left: auto;
+         margin-right: auto;
+         padding: 0;
+         }
+         
    @media screen and (min-width: 992px) {
-      /* ... */
+      html {
+         font-size: 16px;
+        }
+        main {
+         padding: 0;
+        }
+        
+        .flexbox-columns {
+         display: flex;
+         flex-direction: row;
+         flex-wrap: nowrap;
+         gap: 1rem;
+         justify-content: space-between;
+         align-items: stretch;
+         }
+         .flexbox-columns > article {
+         flex: 2;
+         }
+         .flexbox-columns > aside {
+         flex: 1;
+         }
      }
