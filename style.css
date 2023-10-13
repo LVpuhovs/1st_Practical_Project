@@ -11,10 +11,21 @@
    Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UISymbol";
    }
 header {
-background-color: var(--text-green);
-color: var(--white);
-padding: 4rem 0;
+   background: var(--text-green);
+   background: linear-gradient(135deg, #007b4d 0%,#002e1e 100%);
+   color: var(--white);
+   padding: 4rem 0;
 }
+header p.lead {
+   font-size: 2rem;
+   font-weight: bold;
+   font-variant: small-caps;
+   }
+   header p.sub {
+   font-size: 1.5rem;
+   font-style: italic;
+   opacity: 0.33;
+   }
 footer {
 background-color: var(--bg-dark-gray);
 color: var(--white);
@@ -122,4 +133,6 @@ nav ul {
    body {
     margin: 0;
    }
-   
+   @media screen and (min-width: 992px) {
+      /* ... */
+     }
