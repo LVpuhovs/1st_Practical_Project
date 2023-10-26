@@ -11,6 +11,7 @@
    Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UISymbol";
    }
 header {
+    position: fixed;
    background: var(--text-green);
    background: linear-gradient(135deg, #007b4d 0%,#002e1e 100%);
    color: var(--white);
@@ -135,7 +136,7 @@ nav ul {
     line-height: 1.5;
    }
    body {
-    margin: 1;
+    margin: 0;
    }
    .container {
       padding: 0 0.5rem;
