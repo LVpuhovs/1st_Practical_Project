@@ -15,7 +15,6 @@ header {
    background: linear-gradient(135deg, #007b4d 0%,#002e1e 100%);
    color: var(--white);
    padding: 4rem 0;
-   text-align: center;
 }
 body.relative {
   position: relative;
@@ -37,7 +36,6 @@ background-color: var(--bg-dark-gray);
 color: var(--white);
 padding: 4rem 0;
 margin-top: 4rem;
-text-align: center;
 }
 header p, footer p {
 margin: 0;
