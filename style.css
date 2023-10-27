@@ -140,6 +140,7 @@ nav ul {
     line-height: 1.5;
    }
    body {
+      display: grid;
    justify-content: center;
    align-items: center;
    margin: 0;
